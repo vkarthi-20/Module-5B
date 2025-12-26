@@ -17,8 +17,18 @@ To create and display a **DataFrame** using the **Pandas** library in Python fro
 ---
 
 ## 💻 Program
-Add code here
+```
+
+import numpy as np
+import pandas as pd
+exam_data=eval(input())
+lab=np.array(eval(input()))
+df=pd.DataFrame(exam_data,index=lab)
+print(df)
+```
 
 ## Output
+<img width="883" height="216" alt="530170610-9791a0cf-89c4-4c79-916d-9b3c01617837" src="https://github.com/user-attachments/assets/65c02926-1370-4284-901b-880f7dc565c3" />
 
 ## Result
+We got the successful output
